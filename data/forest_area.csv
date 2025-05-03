@@ -1,0 +1,641 @@
+country,date,Forest area (sq. km)
+Afghanistan,2023-01-01,
+Afghanistan,2022-01-01,12084.4
+Afghanistan,2021-01-01,12084.4
+Afghanistan,2020-01-01,12084.4
+Afghanistan,2019-01-01,12084.4
+Afghanistan,2018-01-01,12084.4
+Afghanistan,2017-01-01,12084.4
+Afghanistan,2016-01-01,12084.4
+Afghanistan,2015-01-01,12084.4
+Afghanistan,2014-01-01,12084.4
+Afghanistan,2013-01-01,12084.4
+Afghanistan,2012-01-01,12084.4
+Afghanistan,2011-01-01,12084.4
+Afghanistan,2010-01-01,12084.4
+Afghanistan,2009-01-01,12084.4
+Afghanistan,2008-01-01,12084.4
+Afghanistan,2007-01-01,12084.4
+Afghanistan,2006-01-01,12084.4
+Afghanistan,2005-01-01,12084.4
+Afghanistan,2004-01-01,12084.4
+Afghanistan,2003-01-01,12084.4
+Afghanistan,2002-01-01,12084.4
+Afghanistan,2001-01-01,12084.4
+Afghanistan,2000-01-01,12084.4
+Afghanistan,1999-01-01,12084.4
+Afghanistan,1998-01-01,12084.4
+Afghanistan,1997-01-01,12084.4
+Afghanistan,1996-01-01,12084.4
+Afghanistan,1995-01-01,12084.4
+Afghanistan,1994-01-01,12084.4
+Afghanistan,1993-01-01,12084.4
+Afghanistan,1992-01-01,12084.4
+Afghanistan,1991-01-01,12084.4
+Afghanistan,1990-01-01,12084.4
+Afghanistan,1989-01-01,
+Afghanistan,1988-01-01,
+Afghanistan,1987-01-01,
+Afghanistan,1986-01-01,
+Afghanistan,1985-01-01,
+Afghanistan,1984-01-01,
+Afghanistan,1983-01-01,
+Afghanistan,1982-01-01,
+Afghanistan,1981-01-01,
+Afghanistan,1980-01-01,
+Afghanistan,1979-01-01,
+Afghanistan,1978-01-01,
+Afghanistan,1977-01-01,
+Afghanistan,1976-01-01,
+Afghanistan,1975-01-01,
+Afghanistan,1974-01-01,
+Afghanistan,1973-01-01,
+Afghanistan,1972-01-01,
+Afghanistan,1971-01-01,
+Afghanistan,1970-01-01,
+Afghanistan,1969-01-01,
+Afghanistan,1968-01-01,
+Afghanistan,1967-01-01,
+Afghanistan,1966-01-01,
+Afghanistan,1965-01-01,
+Afghanistan,1964-01-01,
+Afghanistan,1963-01-01,
+Afghanistan,1962-01-01,
+Afghanistan,1961-01-01,
+Afghanistan,1960-01-01,
+Bangladesh,2023-01-01,
+Bangladesh,2022-01-01,18834.0
+Bangladesh,2021-01-01,18834.0
+Bangladesh,2020-01-01,18834.0
+Bangladesh,2019-01-01,18834.0
+Bangladesh,2018-01-01,18834.0
+Bangladesh,2017-01-01,18834.0
+Bangladesh,2016-01-01,18834.0
+Bangladesh,2015-01-01,18834.0
+Bangladesh,2014-01-01,18843.884
+Bangladesh,2013-01-01,18853.768
+Bangladesh,2012-01-01,18863.652
+Bangladesh,2011-01-01,18873.536
+Bangladesh,2010-01-01,18883.42
+Bangladesh,2009-01-01,18915.406
+Bangladesh,2008-01-01,18947.393
+Bangladesh,2007-01-01,18979.379
+Bangladesh,2006-01-01,19011.365
+Bangladesh,2005-01-01,19043.351
+Bangladesh,2004-01-01,19075.337
+Bangladesh,2003-01-01,19107.323
+Bangladesh,2002-01-01,19139.309
+Bangladesh,2001-01-01,19171.295
+Bangladesh,2000-01-01,19203.281
+Bangladesh,1999-01-01,19203.283
+Bangladesh,1998-01-01,19203.285
+Bangladesh,1997-01-01,19203.287
+Bangladesh,1996-01-01,19203.289
+Bangladesh,1995-01-01,19203.29
+Bangladesh,1994-01-01,19203.292
+Bangladesh,1993-01-01,19203.294
+Bangladesh,1992-01-01,19203.296
+Bangladesh,1991-01-01,19203.298
+Bangladesh,1990-01-01,19203.3
+Bangladesh,1989-01-01,
+Bangladesh,1988-01-01,
+Bangladesh,1987-01-01,
+Bangladesh,1986-01-01,
+Bangladesh,1985-01-01,
+Bangladesh,1984-01-01,
+Bangladesh,1983-01-01,
+Bangladesh,1982-01-01,
+Bangladesh,1981-01-01,
+Bangladesh,1980-01-01,
+Bangladesh,1979-01-01,
+Bangladesh,1978-01-01,
+Bangladesh,1977-01-01,
+Bangladesh,1976-01-01,
+Bangladesh,1975-01-01,
+Bangladesh,1974-01-01,
+Bangladesh,1973-01-01,
+Bangladesh,1972-01-01,
+Bangladesh,1971-01-01,
+Bangladesh,1970-01-01,
+Bangladesh,1969-01-01,
+Bangladesh,1968-01-01,
+Bangladesh,1967-01-01,
+Bangladesh,1966-01-01,
+Bangladesh,1965-01-01,
+Bangladesh,1964-01-01,
+Bangladesh,1963-01-01,
+Bangladesh,1962-01-01,
+Bangladesh,1961-01-01,
+Bangladesh,1960-01-01,
+China,2023-01-01,
+China,2022-01-01,2237373.2
+China,2021-01-01,2218577.5
+China,2020-01-01,2199781.8
+China,2019-01-01,2180986.1
+China,2018-01-01,2162190.4
+China,2017-01-01,2143394.7
+China,2016-01-01,2124598.67
+China,2015-01-01,2102942.5
+China,2014-01-01,2083574.76
+China,2013-01-01,2064207.02
+China,2012-01-01,2044839.28
+China,2011-01-01,2025471.54
+China,2010-01-01,2006103.8
+China,2009-01-01,1982493.97
+China,2008-01-01,1958884.14
+China,2007-01-01,1935274.31
+China,2006-01-01,1911664.48
+China,2005-01-01,1888054.65
+China,2004-01-01,1864444.82
+China,2003-01-01,1840834.99
+China,2002-01-01,1817225.16
+China,2001-01-01,1793615.33
+China,2000-01-01,1770005.5
+China,1999-01-01,1750145.54
+China,1998-01-01,1730285.58
+China,1997-01-01,1710425.62
+China,1996-01-01,1690565.66
+China,1995-01-01,1670705.7
+China,1994-01-01,1650845.74
+China,1993-01-01,1630985.78
+China,1992-01-01,1611125.82
+China,1991-01-01,1591265.86
+China,1990-01-01,1571405.9
+China,1989-01-01,
+China,1988-01-01,
+China,1987-01-01,
+China,1986-01-01,
+China,1985-01-01,
+China,1984-01-01,
+China,1983-01-01,
+China,1982-01-01,
+China,1981-01-01,
+China,1980-01-01,
+China,1979-01-01,
+China,1978-01-01,
+China,1977-01-01,
+China,1976-01-01,
+China,1975-01-01,
+China,1974-01-01,
+China,1973-01-01,
+China,1972-01-01,
+China,1971-01-01,
+China,1970-01-01,
+China,1969-01-01,
+China,1968-01-01,
+China,1967-01-01,
+China,1966-01-01,
+China,1965-01-01,
+China,1964-01-01,
+China,1963-01-01,
+China,1962-01-01,
+China,1961-01-01,
+China,1960-01-01,
+India,2023-01-01,
+India,2022-01-01,726928.0
+India,2021-01-01,724264.0
+India,2020-01-01,721600.0
+India,2019-01-01,718936.0
+India,2018-01-01,716272.0
+India,2017-01-01,713608.0
+India,2016-01-01,710944.0
+India,2015-01-01,708280.0
+India,2014-01-01,705616.0
+India,2013-01-01,702952.0
+India,2012-01-01,700288.0
+India,2011-01-01,697624.0
+India,2010-01-01,694960.0
+India,2009-01-01,693055.0
+India,2008-01-01,691150.0
+India,2007-01-01,689245.0
+India,2006-01-01,687340.0
+India,2005-01-01,685435.0
+India,2004-01-01,683530.0
+India,2003-01-01,681625.0
+India,2002-01-01,679720.0
+India,2001-01-01,677815.0
+India,2000-01-01,675910.0
+India,1999-01-01,672257.0
+India,1998-01-01,668604.0
+India,1997-01-01,664951.0
+India,1996-01-01,661298.0
+India,1995-01-01,657645.0
+India,1994-01-01,653992.0
+India,1993-01-01,650339.0
+India,1992-01-01,646686.0
+India,1991-01-01,643033.0
+India,1990-01-01,639380.0
+India,1989-01-01,
+India,1988-01-01,
+India,1987-01-01,
+India,1986-01-01,
+India,1985-01-01,
+India,1984-01-01,
+India,1983-01-01,
+India,1982-01-01,
+India,1981-01-01,
+India,1980-01-01,
+India,1979-01-01,
+India,1978-01-01,
+India,1977-01-01,
+India,1976-01-01,
+India,1975-01-01,
+India,1974-01-01,
+India,1973-01-01,
+India,1972-01-01,
+India,1971-01-01,
+India,1970-01-01,
+India,1969-01-01,
+India,1968-01-01,
+India,1967-01-01,
+India,1966-01-01,
+India,1965-01-01,
+India,1964-01-01,
+India,1963-01-01,
+India,1962-01-01,
+India,1961-01-01,
+India,1960-01-01,
+"Iran, Islamic Rep.",2023-01-01,
+"Iran, Islamic Rep.",2022-01-01,107758.167
+"Iran, Islamic Rep.",2021-01-01,107656.3
+"Iran, Islamic Rep.",2020-01-01,107518.7
+"Iran, Islamic Rep.",2019-01-01,107434.7
+"Iran, Islamic Rep.",2018-01-01,107270.3
+"Iran, Islamic Rep.",2017-01-01,107105.9
+"Iran, Islamic Rep.",2016-01-01,107020.8
+"Iran, Islamic Rep.",2015-01-01,106919.8
+"Iran, Islamic Rep.",2014-01-01,106919.8
+"Iran, Islamic Rep.",2013-01-01,106919.8
+"Iran, Islamic Rep.",2012-01-01,106919.8
+"Iran, Islamic Rep.",2011-01-01,106919.8
+"Iran, Islamic Rep.",2010-01-01,106919.8
+"Iran, Islamic Rep.",2009-01-01,105553.48
+"Iran, Islamic Rep.",2008-01-01,104187.16
+"Iran, Islamic Rep.",2007-01-01,102820.84
+"Iran, Islamic Rep.",2006-01-01,101454.52
+"Iran, Islamic Rep.",2005-01-01,100088.2
+"Iran, Islamic Rep.",2004-01-01,98721.88
+"Iran, Islamic Rep.",2003-01-01,97355.56
+"Iran, Islamic Rep.",2002-01-01,95989.24
+"Iran, Islamic Rep.",2001-01-01,94622.92
+"Iran, Islamic Rep.",2000-01-01,93256.6
+"Iran, Islamic Rep.",1999-01-01,93007.0
+"Iran, Islamic Rep.",1998-01-01,92757.4
+"Iran, Islamic Rep.",1997-01-01,92507.8
+"Iran, Islamic Rep.",1996-01-01,92258.2
+"Iran, Islamic Rep.",1995-01-01,92008.6
+"Iran, Islamic Rep.",1994-01-01,91759.0
+"Iran, Islamic Rep.",1993-01-01,91509.4
+"Iran, Islamic Rep.",1992-01-01,91259.8
+"Iran, Islamic Rep.",1991-01-01,91010.2
+"Iran, Islamic Rep.",1990-01-01,90760.6
+"Iran, Islamic Rep.",1989-01-01,
+"Iran, Islamic Rep.",1988-01-01,
+"Iran, Islamic Rep.",1987-01-01,
+"Iran, Islamic Rep.",1986-01-01,
+"Iran, Islamic Rep.",1985-01-01,
+"Iran, Islamic Rep.",1984-01-01,
+"Iran, Islamic Rep.",1983-01-01,
+"Iran, Islamic Rep.",1982-01-01,
+"Iran, Islamic Rep.",1981-01-01,
+"Iran, Islamic Rep.",1980-01-01,
+"Iran, Islamic Rep.",1979-01-01,
+"Iran, Islamic Rep.",1978-01-01,
+"Iran, Islamic Rep.",1977-01-01,
+"Iran, Islamic Rep.",1976-01-01,
+"Iran, Islamic Rep.",1975-01-01,
+"Iran, Islamic Rep.",1974-01-01,
+"Iran, Islamic Rep.",1973-01-01,
+"Iran, Islamic Rep.",1972-01-01,
+"Iran, Islamic Rep.",1971-01-01,
+"Iran, Islamic Rep.",1970-01-01,
+"Iran, Islamic Rep.",1969-01-01,
+"Iran, Islamic Rep.",1968-01-01,
+"Iran, Islamic Rep.",1967-01-01,
+"Iran, Islamic Rep.",1966-01-01,
+"Iran, Islamic Rep.",1965-01-01,
+"Iran, Islamic Rep.",1964-01-01,
+"Iran, Islamic Rep.",1963-01-01,
+"Iran, Islamic Rep.",1962-01-01,
+"Iran, Islamic Rep.",1961-01-01,
+"Iran, Islamic Rep.",1960-01-01,
+Sri Lanka,2023-01-01,
+Sri Lanka,2022-01-01,21067.0
+Sri Lanka,2021-01-01,21098.6
+Sri Lanka,2020-01-01,21130.2
+Sri Lanka,2019-01-01,21161.8
+Sri Lanka,2018-01-01,21193.4
+Sri Lanka,2017-01-01,21225.0
+Sri Lanka,2016-01-01,21256.6
+Sri Lanka,2015-01-01,21288.2
+Sri Lanka,2014-01-01,21237.8
+Sri Lanka,2013-01-01,21187.4
+Sri Lanka,2012-01-01,21137.0
+Sri Lanka,2011-01-01,21086.6
+Sri Lanka,2010-01-01,21036.2
+Sri Lanka,2009-01-01,21099.0
+Sri Lanka,2008-01-01,21161.8
+Sri Lanka,2007-01-01,21224.6
+Sri Lanka,2006-01-01,21287.4
+Sri Lanka,2005-01-01,21350.2
+Sri Lanka,2004-01-01,21413.0
+Sri Lanka,2003-01-01,21475.8
+Sri Lanka,2002-01-01,21538.6
+Sri Lanka,2001-01-01,21601.4
+Sri Lanka,2000-01-01,21664.2
+Sri Lanka,1999-01-01,21848.11
+Sri Lanka,1998-01-01,22032.02
+Sri Lanka,1997-01-01,22215.93
+Sri Lanka,1996-01-01,22399.84
+Sri Lanka,1995-01-01,22583.75
+Sri Lanka,1994-01-01,22767.66
+Sri Lanka,1993-01-01,22951.57
+Sri Lanka,1992-01-01,23135.48
+Sri Lanka,1991-01-01,23319.39
+Sri Lanka,1990-01-01,23503.3
+Sri Lanka,1989-01-01,
+Sri Lanka,1988-01-01,
+Sri Lanka,1987-01-01,
+Sri Lanka,1986-01-01,
+Sri Lanka,1985-01-01,
+Sri Lanka,1984-01-01,
+Sri Lanka,1983-01-01,
+Sri Lanka,1982-01-01,
+Sri Lanka,1981-01-01,
+Sri Lanka,1980-01-01,
+Sri Lanka,1979-01-01,
+Sri Lanka,1978-01-01,
+Sri Lanka,1977-01-01,
+Sri Lanka,1976-01-01,
+Sri Lanka,1975-01-01,
+Sri Lanka,1974-01-01,
+Sri Lanka,1973-01-01,
+Sri Lanka,1972-01-01,
+Sri Lanka,1971-01-01,
+Sri Lanka,1970-01-01,
+Sri Lanka,1969-01-01,
+Sri Lanka,1968-01-01,
+Sri Lanka,1967-01-01,
+Sri Lanka,1966-01-01,
+Sri Lanka,1965-01-01,
+Sri Lanka,1964-01-01,
+Sri Lanka,1963-01-01,
+Sri Lanka,1962-01-01,
+Sri Lanka,1961-01-01,
+Sri Lanka,1960-01-01,
+Myanmar,2023-01-01,
+Myanmar,2022-01-01,279644.7
+Myanmar,2021-01-01,282541.8
+Myanmar,2020-01-01,285438.9
+Myanmar,2019-01-01,288336.0
+Myanmar,2018-01-01,291233.1
+Myanmar,2017-01-01,294130.2
+Myanmar,2016-01-01,297027.3
+Myanmar,2015-01-01,299924.4
+Myanmar,2014-01-01,302821.52
+Myanmar,2013-01-01,305718.64
+Myanmar,2012-01-01,308615.76
+Myanmar,2011-01-01,311512.88
+Myanmar,2010-01-01,314410.0
+Myanmar,2009-01-01,317837.11
+Myanmar,2008-01-01,321264.22
+Myanmar,2007-01-01,324691.33
+Myanmar,2006-01-01,328118.44
+Myanmar,2005-01-01,331545.55
+Myanmar,2004-01-01,334972.66
+Myanmar,2003-01-01,338399.77
+Myanmar,2002-01-01,341826.88
+Myanmar,2001-01-01,345253.99
+Myanmar,2000-01-01,348681.1
+Myanmar,1999-01-01,353031.47
+Myanmar,1998-01-01,357381.84
+Myanmar,1997-01-01,361732.21
+Myanmar,1996-01-01,366082.58
+Myanmar,1995-01-01,370432.95
+Myanmar,1994-01-01,374783.32
+Myanmar,1993-01-01,379133.69
+Myanmar,1992-01-01,383484.06
+Myanmar,1991-01-01,387834.43
+Myanmar,1990-01-01,392184.8
+Myanmar,1989-01-01,
+Myanmar,1988-01-01,
+Myanmar,1987-01-01,
+Myanmar,1986-01-01,
+Myanmar,1985-01-01,
+Myanmar,1984-01-01,
+Myanmar,1983-01-01,
+Myanmar,1982-01-01,
+Myanmar,1981-01-01,
+Myanmar,1980-01-01,
+Myanmar,1979-01-01,
+Myanmar,1978-01-01,
+Myanmar,1977-01-01,
+Myanmar,1976-01-01,
+Myanmar,1975-01-01,
+Myanmar,1974-01-01,
+Myanmar,1973-01-01,
+Myanmar,1972-01-01,
+Myanmar,1971-01-01,
+Myanmar,1970-01-01,
+Myanmar,1969-01-01,
+Myanmar,1968-01-01,
+Myanmar,1967-01-01,
+Myanmar,1966-01-01,
+Myanmar,1965-01-01,
+Myanmar,1964-01-01,
+Myanmar,1963-01-01,
+Myanmar,1962-01-01,
+Myanmar,1961-01-01,
+Myanmar,1960-01-01,
+Nepal,2023-01-01,
+Nepal,2022-01-01,59620.3
+Nepal,2021-01-01,59620.3
+Nepal,2020-01-01,59620.3
+Nepal,2019-01-01,59620.3
+Nepal,2018-01-01,59620.3
+Nepal,2017-01-01,59620.3
+Nepal,2016-01-01,59620.3
+Nepal,2015-01-01,59620.3
+Nepal,2014-01-01,59620.3
+Nepal,2013-01-01,59620.3
+Nepal,2012-01-01,59620.3
+Nepal,2011-01-01,59620.3
+Nepal,2010-01-01,59620.3
+Nepal,2009-01-01,59439.03
+Nepal,2008-01-01,59257.76
+Nepal,2007-01-01,59076.49
+Nepal,2006-01-01,58895.22
+Nepal,2005-01-01,58713.95
+Nepal,2004-01-01,58532.68
+Nepal,2003-01-01,58351.41
+Nepal,2002-01-01,58170.14
+Nepal,2001-01-01,57988.87
+Nepal,2000-01-01,57807.6
+Nepal,1999-01-01,57698.84
+Nepal,1998-01-01,57590.08
+Nepal,1997-01-01,57481.32
+Nepal,1996-01-01,57372.56
+Nepal,1995-01-01,57263.8
+Nepal,1994-01-01,57155.04
+Nepal,1993-01-01,57046.28
+Nepal,1992-01-01,56937.52
+Nepal,1991-01-01,56828.76
+Nepal,1990-01-01,56720.0
+Nepal,1989-01-01,
+Nepal,1988-01-01,
+Nepal,1987-01-01,
+Nepal,1986-01-01,
+Nepal,1985-01-01,
+Nepal,1984-01-01,
+Nepal,1983-01-01,
+Nepal,1982-01-01,
+Nepal,1981-01-01,
+Nepal,1980-01-01,
+Nepal,1979-01-01,
+Nepal,1978-01-01,
+Nepal,1977-01-01,
+Nepal,1976-01-01,
+Nepal,1975-01-01,
+Nepal,1974-01-01,
+Nepal,1973-01-01,
+Nepal,1972-01-01,
+Nepal,1971-01-01,
+Nepal,1970-01-01,
+Nepal,1969-01-01,
+Nepal,1968-01-01,
+Nepal,1967-01-01,
+Nepal,1966-01-01,
+Nepal,1965-01-01,
+Nepal,1964-01-01,
+Nepal,1963-01-01,
+Nepal,1962-01-01,
+Nepal,1961-01-01,
+Nepal,1960-01-01,
+Pakistan,2023-01-01,
+Pakistan,2022-01-01,36432.2
+Pakistan,2021-01-01,36845.6
+Pakistan,2020-01-01,37259.0
+Pakistan,2019-01-01,37672.4
+Pakistan,2018-01-01,38085.8
+Pakistan,2017-01-01,38499.2
+Pakistan,2016-01-01,38682.4
+Pakistan,2015-01-01,39326.0
+Pakistan,2014-01-01,39648.26
+Pakistan,2013-01-01,39970.52
+Pakistan,2012-01-01,40292.78
+Pakistan,2011-01-01,40615.04
+Pakistan,2010-01-01,40937.3
+Pakistan,2009-01-01,41354.83
+Pakistan,2008-01-01,41772.36
+Pakistan,2007-01-01,42189.89
+Pakistan,2006-01-01,42607.42
+Pakistan,2005-01-01,43024.95
+Pakistan,2004-01-01,43442.48
+Pakistan,2003-01-01,43860.01
+Pakistan,2002-01-01,44277.54
+Pakistan,2001-01-01,44695.07
+Pakistan,2000-01-01,45112.6
+Pakistan,1999-01-01,45588.13
+Pakistan,1998-01-01,46063.66
+Pakistan,1997-01-01,46539.19
+Pakistan,1996-01-01,47014.72
+Pakistan,1995-01-01,47490.25
+Pakistan,1994-01-01,47965.78
+Pakistan,1993-01-01,48441.31
+Pakistan,1992-01-01,48916.84
+Pakistan,1991-01-01,49392.37
+Pakistan,1990-01-01,49867.9
+Pakistan,1989-01-01,
+Pakistan,1988-01-01,
+Pakistan,1987-01-01,
+Pakistan,1986-01-01,
+Pakistan,1985-01-01,
+Pakistan,1984-01-01,
+Pakistan,1983-01-01,
+Pakistan,1982-01-01,
+Pakistan,1981-01-01,
+Pakistan,1980-01-01,
+Pakistan,1979-01-01,
+Pakistan,1978-01-01,
+Pakistan,1977-01-01,
+Pakistan,1976-01-01,
+Pakistan,1975-01-01,
+Pakistan,1974-01-01,
+Pakistan,1973-01-01,
+Pakistan,1972-01-01,
+Pakistan,1971-01-01,
+Pakistan,1970-01-01,
+Pakistan,1969-01-01,
+Pakistan,1968-01-01,
+Pakistan,1967-01-01,
+Pakistan,1966-01-01,
+Pakistan,1965-01-01,
+Pakistan,1964-01-01,
+Pakistan,1963-01-01,
+Pakistan,1962-01-01,
+Pakistan,1961-01-01,
+Pakistan,1960-01-01,
+United States,2023-01-01,
+United States,2022-01-01,3097950.0
+United States,2021-01-01,3097950.0
+United States,2020-01-01,3097950.0
+United States,2019-01-01,3097950.0
+United States,2018-01-01,3097950.0
+United States,2017-01-01,3097950.0
+United States,2016-01-01,3100950.0
+United States,2015-01-01,3100950.0
+United States,2014-01-01,3098200.0
+United States,2013-01-01,3095450.0
+United States,2012-01-01,3092700.0
+United States,2011-01-01,3089950.0
+United States,2010-01-01,3087200.0
+United States,2009-01-01,3082016.0
+United States,2008-01-01,3076832.0
+United States,2007-01-01,3071648.0
+United States,2006-01-01,3066464.0
+United States,2005-01-01,3061280.0
+United States,2004-01-01,3056096.0
+United States,2003-01-01,3050912.0
+United States,2002-01-01,3045728.0
+United States,2001-01-01,3040544.0
+United States,2000-01-01,3035360.0
+United States,1999-01-01,3034274.0
+United States,1998-01-01,3033188.0
+United States,1997-01-01,3032102.0
+United States,1996-01-01,3031016.0
+United States,1995-01-01,3029930.0
+United States,1994-01-01,3028844.0
+United States,1993-01-01,3027758.0
+United States,1992-01-01,3026672.0
+United States,1991-01-01,3025586.0
+United States,1990-01-01,3024500.0
+United States,1989-01-01,
+United States,1988-01-01,
+United States,1987-01-01,
+United States,1986-01-01,
+United States,1985-01-01,
+United States,1984-01-01,
+United States,1983-01-01,
+United States,1982-01-01,
+United States,1981-01-01,
+United States,1980-01-01,
+United States,1979-01-01,
+United States,1978-01-01,
+United States,1977-01-01,
+United States,1976-01-01,
+United States,1975-01-01,
+United States,1974-01-01,
+United States,1973-01-01,
+United States,1972-01-01,
+United States,1971-01-01,
+United States,1970-01-01,
+United States,1969-01-01,
+United States,1968-01-01,
+United States,1967-01-01,
+United States,1966-01-01,
+United States,1965-01-01,
+United States,1964-01-01,
+United States,1963-01-01,
+United States,1962-01-01,
+United States,1961-01-01,
+United States,1960-01-01,
