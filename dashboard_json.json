@@ -1,0 +1,2471 @@
+{
+  "__inputs": [
+    {
+      "name": "DS_GRAFANACLOUD-INFINITY",
+      "label": "grafanacloud-infinity",
+      "description": "",
+      "type": "datasource",
+      "pluginId": "yesoreyeram-infinity-datasource",
+      "pluginName": "Infinity"
+    }
+  ],
+  "__elements": {},
+  "__requires": [
+    {
+      "type": "panel",
+      "id": "bargauge",
+      "name": "Bar gauge",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "geomap",
+      "name": "Geomap",
+      "version": ""
+    },
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "12.0.0-86898"
+    },
+    {
+      "type": "panel",
+      "id": "stat",
+      "name": "Stat",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "text",
+      "name": "Text",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "timeseries",
+      "name": "Time series",
+      "version": ""
+    },
+    {
+      "type": "datasource",
+      "id": "yesoreyeram-infinity-datasource",
+      "name": "Infinity",
+      "version": "3.2.0"
+    }
+  ],
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 22,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<div style=\"text-align:center; font-size:28px; font-weight:bold; color:#ecf0f1;\">\r\n  🌍 Industrial Revolution: <span style=\"color:#e74c3c;\">Impact on CO₂</span>, \r\n  <span style=\"color:#2980b9;\">Health</span> & \r\n  <span style=\"color:#27ae60;\">Global Trends</span>\r\n</div>\r\n",
+        "mode": "html"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 3,
+        "x": 0,
+        "y": 2
+      },
+      "id": 30,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<img src=\"https://www.upf.edu/documents/7018044/239140316/E_WEB_09.png/23a7d7e4-6328-6008-69ad-f350991035be?t=1647857982096\">",
+        "mode": "html"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 3,
+        "x": 3,
+        "y": 2
+      },
+      "id": 29,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<img src=\"https://www.caib.es/sites/agenda2030/en/agenda_2030/archivopub.do?ctrl=MCRST10425ZI390258&id=390258\">",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 3,
+        "x": 6,
+        "y": 2
+      },
+      "id": 31,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<img src=\"https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_1500,h_1500/https://unhabitat.la/wp-content/uploads/2024/01/E-WEB-Goal-13.png\">",
+        "mode": "html"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 43,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 6,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "decimals": 0,
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "dark-red"
+              }
+            ]
+          },
+          "unit": "short"
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Year"
+            },
+            "properties": []
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "summary"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#22ff00",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 14,
+        "w": 10,
+        "x": 9,
+        "y": 2
+      },
+      "id": 3,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "emissions_total",
+              "text": "emissions_total",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            },
+            {
+              "selector": "Year",
+              "text": "Year",
+              "timestampFormat": "2006",
+              "type": "timestamp"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "summarizeBy": "Year",
+          "summarizeExpression": "sum(emissions_total)",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Global World Emisions",
+      "transparent": true,
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 5,
+        "x": 19,
+        "y": 2
+      },
+      "id": 13,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "auto",
+        "wideLayout": true
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "Global average temperature anomaly relative to 1861-1890",
+              "text": "Global average temperature anomaly relative to 1861-1890",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Entity",
+              "type": "string"
+            }
+          ],
+          "data": "Entity,Year,Global average temperature anomaly relative to 1861-1890\nNorthern Hemisphere,1850,-0.055067\nNorthern Hemisphere,1851,0.1615803\nNorthern Hemisphere,1852,0.14512725\nNorthern Hemisphere,1853,0.13543713\nNorthern Hemisphere,1854,0.2061396\nNorthern Hemisphere,1855,0.13525501\nNorthern Hemisphere,1856,0.04728845\nNorthern Hemisphere,1857,-0.07056733\nNorthern Hemisphere,1858,0.022224907\nNorthern Hemisphere,1859,0.1330458\nNorthern Hemisphere,1860,-0.07820275\nNorthern Hemisphere,1861,-0.024383958\nNorthern Hemisphere,1862,-0.32068256\nNorthern Hemisphere,1863,0.07966859\nNorthern Hemisphere,1864,-0.08087095\nNorthern Hemisphere,1865,0.013526325\nNorthern Hemisphere,1866,0.007045571\nNorthern Hemisphere,1867,-0.024325486\nNorthern Hemisphere,1868,0.02238432\nNorthern Hemisphere,1869,0.13202271\nNorthern Hemisphere,1870,0.06868789\nNorthern Hemisphere,1871,-0.0600903\nNorthern Hemisphere,1872,0.023669574\nNorthern Hemisphere,1873,0.0053049666\nNorthern Hemisphere,1874,0.08709658\nNorthern Hemisphere,1875,-0.10289302\nNorthern Hemisphere,1876,-0.05413693\nNorthern Hemisphere,1877,0.27946702\nNorthern Hemisphere,1878,0.45204005\nNorthern Hemisphere,1879,0.044580672\nNorthern Hemisphere,1880,-0.0031684595\nNorthern Hemisphere,1881,0.09677938\nNorthern Hemisphere,1882,0.007850175\nNorthern Hemisphere,1883,-0.046234157\nNorthern Hemisphere,1884,-0.25363216\nNorthern Hemisphere,1885,-0.12880734\nNorthern Hemisphere,1886,-0.064637\nNorthern Hemisphere,1887,-0.11338975\nNorthern Hemisphere,1888,0.00838009\nNorthern Hemisphere,1889,0.12036339\nNorthern Hemisphere,1890,-0.14284292\nNorthern Hemisphere,1891,-0.031072702\nNorthern Hemisphere,1892,-0.19523093\nNorthern Hemisphere,1893,-0.17589429\nNorthern Hemisphere,1894,-0.061767455\nNorthern Hemisphere,1895,-0.06429144\nNorthern Hemisphere,1896,0.087389\nNorthern Hemisphere,1897,0.12926888\nNorthern Hemisphere,1898,-0.049617704\nNorthern Hemisphere,1899,0.047784124\nNorthern Hemisphere,1900,0.18289912\nNorthern Hemisphere,1901,0.16592212\nNorthern Hemisphere,1902,-0.079038374\nNorthern Hemisphere,1903,-0.12423136\nNorthern Hemisphere,1904,-0.19744322\nNorthern Hemisphere,1905,-0.022676524\nNorthern Hemisphere,1906,0.120518185\nNorthern Hemisphere,1907,-0.15572718\nNorthern Hemisphere,1908,-0.09693255\nNorthern Hemisphere,1909,-0.11278056\nNorthern Hemisphere,1910,-0.11040311\nNorthern Hemisphere,1911,-0.07211446\nNorthern Hemisphere,1912,-0.1492354\nNorthern Hemisphere,1913,-0.11363318\nNorthern Hemisphere,1914,0.111980535\nNorthern Hemisphere,1915,0.20557371\nNorthern Hemisphere,1916,-0.062365796\nNorthern Hemisphere,1917,-0.20338956\nNorthern Hemisphere,1918,-0.08821573\nNorthern Hemisphere,1919,0.008888607\nNorthern Hemisphere,1920,0.07203216\nNorthern Hemisphere,1921,0.21793915\nNorthern Hemisphere,1922,0.078594424\nNorthern Hemisphere,1923,0.1259217\nNorthern Hemisphere,1924,0.18856066\nNorthern Hemisphere,1925,0.21273372\nNorthern Hemisphere,1926,0.37933686\nNorthern Hemisphere,1927,0.27445424\nNorthern Hemisphere,1928,0.29389182\nNorthern Hemisphere,1929,0.04474229\nNorthern Hemisphere,1930,0.35081705\nNorthern Hemisphere,1931,0.42669213\nNorthern Hemisphere,1932,0.34339574\nNorthern Hemisphere,1933,0.11577792\nNorthern Hemisphere,1934,0.3274267\nNorthern Hemisphere,1935,0.2942787\nNorthern Hemisphere,1936,0.3198338\nNorthern Hemisphere,1937,0.5025954\nNorthern Hemisphere,1938,0.5403174\nNorthern Hemisphere,1939,0.43422043\nNorthern Hemisphere,1940,0.50281006\nNorthern Hemisphere,1941,0.45631954\nNorthern Hemisphere,1942,0.44097042\nNorthern Hemisphere,1943,0.49330673\nNorthern Hemisphere,1944,0.60089463\nNorthern Hemisphere,1945,0.46436378\nNorthern Hemisphere,1946,0.3693552\nNorthern Hemisphere,1947,0.42503858\nNorthern Hemisphere,1948,0.38005054\nNorthern Hemisphere,1949,0.3133171\nNorthern Hemisphere,1950,0.18993662\nNorthern Hemisphere,1951,0.4346785\nNorthern Hemisphere,1952,0.45064667\nNorthern Hemisphere,1953,0.5874084\nNorthern Hemisphere,1954,0.34971154\nNorthern Hemisphere,1955,0.25524187\nNorthern Hemisphere,1956,0.101699926\nNorthern Hemisphere,1957,0.3450615\nNorthern Hemisphere,1958,0.463525\nNorthern Hemisphere,1959,0.427905\nNorthern Hemisphere,1960,0.3812258\nNorthern Hemisphere,1961,0.37409857\nNorthern Hemisphere,1962,0.42903498\nNorthern Hemisphere,1963,0.4511935\nNorthern Hemisphere,1964,0.11982728\nNorthern Hemisphere,1965,0.18569663\nNorthern Hemisphere,1966,0.2918693\nNorthern Hemisphere,1967,0.34169662\nNorthern Hemisphere,1968,0.24159104\nNorthern Hemisphere,1969,0.28049123\nNorthern Hemisphere,1970,0.25832948\nNorthern Hemisphere,1971,0.15186635\nNorthern Hemisphere,1972,0.13094598\nNorthern Hemisphere,1973,0.40243065\nNorthern Hemisphere,1974,0.13119599\nNorthern Hemisphere,1975,0.2699471\nNorthern Hemisphere,1976,0.12896669\nNorthern Hemisphere,1977,0.4597997\nNorthern Hemisphere,1978,0.36893275\nNorthern Hemisphere,1979,0.41191036\nNorthern Hemisphere,1980,0.5201363\nNorthern Hemisphere,1981,0.72079253\nNorthern Hemisphere,1982,0.37095115\nNorthern Hemisphere,1983,0.5730429\nNorthern Hemisphere,1984,0.35120758\nNorthern Hemisphere,1985,0.32880247\nNorthern Hemisphere,1986,0.4428468\nNorthern Hemisphere,1987,0.5765443\nNorthern Hemisphere,1988,0.69649047\nNorthern Hemisphere,1989,0.59819657\nNorthern Hemisphere,1990,0.84481627\nNorthern Hemisphere,1991,0.7660203\nNorthern Hemisphere,1992,0.4777385\nNorthern Hemisphere,1993,0.5732742\nNorthern Hemisphere,1994,0.704055\nNorthern Hemisphere,1995,0.9494654\nNorthern Hemisphere,1996,0.6725781\nNorthern Hemisphere,1997,0.9155499\nNorthern Hemisphere,1998,1.0951204\nNorthern Hemisphere,1999,0.85719246\nNorthern Hemisphere,2000,0.8679054\nNorthern Hemisphere,2001,1.0090723\nNorthern Hemisphere,2002,1.0495435\nNorthern Hemisphere,2003,1.1013008\nNorthern Hemisphere,2004,1.0143192\nNorthern Hemisphere,2005,1.2122287\nNorthern Hemisphere,2006,1.1755902\nNorthern Hemisphere,2007,1.2129318\nNorthern Hemisphere,2008,1.0525335\nNorthern Hemisphere,2009,1.0875689\nNorthern Hemisphere,2010,1.300329\nNorthern Hemisphere,2011,1.1061754\nNorthern Hemisphere,2012,1.1651609\nNorthern Hemisphere,2013,1.1575035\nNorthern Hemisphere,2014,1.2886233\nNorthern Hemisphere,2015,1.51167\nNorthern Hemisphere,2016,1.6360222\nNorthern Hemisphere,2017,1.4962262\nNorthern Hemisphere,2018,1.340491\nNorthern Hemisphere,2019,1.5245727\nNorthern Hemisphere,2020,1.6567389\nNorthern Hemisphere,2021,1.459022\nNorthern Hemisphere,2022,1.4806312\nNorthern Hemisphere,2023,1.7946954\nNorthern Hemisphere,2024,1.9299376\nNorthern Hemisphere,2025,2.0565522\nSouthern hemisphere,1850,-0.055760294\nSouthern hemisphere,1851,0.09631559\nSouthern hemisphere,1852,0.12067008\nSouthern hemisphere,1853,0.048449486\nSouthern hemisphere,1854,-0.064585805\nSouthern hemisphere,1855,-0.004493027\nSouthern hemisphere,1856,0.036599606\nSouthern hemisphere,1857,-0.13929725\nSouthern hemisphere,1858,-0.07516077\nSouthern hemisphere,1859,0.029019356\nSouthern hemisphere,1860,0.022467911\nSouthern hemisphere,1861,-0.1092464\nSouthern hemisphere,1862,-0.027460665\nSouthern hemisphere,1863,-0.04356125\nSouthern hemisphere,1864,-0.12546372\nSouthern hemisphere,1865,0.046106488\nSouthern hemisphere,1866,0.034974933\nSouthern hemisphere,1867,0.034932762\nSouthern hemisphere,1868,-0.0014431169\nSouthern hemisphere,1869,-0.040611118\nSouthern hemisphere,1870,0.000052572228\nSouthern hemisphere,1871,0.047560304\nSouthern hemisphere,1872,0.044704765\nSouthern hemisphere,1873,0.036696732\nSouthern hemisphere,1874,-0.109003454\nSouthern hemisphere,1875,0.076236635\nSouthern hemisphere,1876,-0.06948739\nSouthern hemisphere,1877,0.24291082\nSouthern hemisphere,1878,0.24992508\nSouthern hemisphere,1879,0.07274616\nSouthern hemisphere,1880,0.09609981\nSouthern hemisphere,1881,0.16332506\nSouthern hemisphere,1882,0.12568516\nSouthern hemisphere,1883,0.07788083\nSouthern hemisphere,1884,-0.006412505\nSouthern hemisphere,1885,-0.08884436\nSouthern hemisphere,1886,-0.052574724\nSouthern hemisphere,1887,-0.15958628\nSouthern hemisphere,1888,-0.04254237\nSouthern hemisphere,1889,0.10444102\nSouthern hemisphere,1890,-0.14627793\nSouthern hemisphere,1891,-0.046961695\nSouthern hemisphere,1892,-0.09529063\nSouthern hemisphere,1893,-0.08874869\nSouthern hemisphere,1894,-0.18116489\nSouthern hemisphere,1895,-0.10861626\nSouthern hemisphere,1896,0.06919196\nSouthern hemisphere,1897,0.07572627\nSouthern hemisphere,1898,-0.19737104\nSouthern hemisphere,1899,-0.03405595\nSouthern hemisphere,1900,0.07270858\nSouthern hemisphere,1901,-0.028147131\nSouthern hemisphere,1902,-0.07427922\nSouthern hemisphere,1903,-0.21774736\nSouthern hemisphere,1904,-0.27298346\nSouthern hemisphere,1905,-0.06831443\nSouthern hemisphere,1906,-0.03414029\nSouthern hemisphere,1907,-0.12782994\nSouthern hemisphere,1908,-0.20611134\nSouthern hemisphere,1909,-0.23399827\nSouthern hemisphere,1910,-0.22682038\nSouthern hemisphere,1911,-0.2814481\nSouthern hemisphere,1912,-0.07724643\nSouthern hemisphere,1913,-0.095793515\nSouthern hemisphere,1914,0.08774179\nSouthern hemisphere,1915,0.1356774\nSouthern hemisphere,1916,-0.05308503\nSouthern hemisphere,1917,-0.15765437\nSouthern hemisphere,1918,-0.035916954\nSouthern hemisphere,1919,0.06512877\nSouthern hemisphere,1920,0.055853188\nSouthern hemisphere,1921,0.025767624\nSouthern hemisphere,1922,-0.03202632\nSouthern hemisphere,1923,-0.036689937\nSouthern hemisphere,1924,-0.08756858\nSouthern hemisphere,1925,-0.052422196\nSouthern hemisphere,1926,0.10014863\nSouthern hemisphere,1927,-0.008085935\nSouthern hemisphere,1928,0.017772079\nSouthern hemisphere,1929,-0.10503283\nSouthern hemisphere,1930,0.020167619\nSouthern hemisphere,1931,0.091108024\nSouthern hemisphere,1932,0.09027633\nSouthern hemisphere,1933,-0.035871267\nSouthern hemisphere,1934,0.048495084\nSouthern hemisphere,1935,0.018198311\nSouthern hemisphere,1936,0.06571981\nSouthern hemisphere,1937,0.18360215\nSouthern hemisphere,1938,0.1598766\nSouthern hemisphere,1939,0.20878066\nSouthern hemisphere,1940,0.37365705\nSouthern hemisphere,1941,0.34453455\nSouthern hemisphere,1942,0.2864372\nSouthern hemisphere,1943,0.24413194\nSouthern hemisphere,1944,0.41191113\nSouthern hemisphere,1945,0.3464084\nSouthern hemisphere,1946,0.117611066\nSouthern hemisphere,1947,0.1171457\nSouthern hemisphere,1948,0.09522241\nSouthern hemisphere,1949,0.123673946\nSouthern hemisphere,1950,0.081415236\nSouthern hemisphere,1951,0.16760908\nSouthern hemisphere,1952,0.3046579\nSouthern hemisphere,1953,0.29244858\nSouthern hemisphere,1954,0.14138348\nSouthern hemisphere,1955,0.074733764\nSouthern hemisphere,1956,0.09656432\nSouthern hemisphere,1957,0.30886415\nSouthern hemisphere,1958,0.22580537\nSouthern hemisphere,1959,0.20068087\nSouthern hemisphere,1960,0.112450525\nSouthern hemisphere,1961,0.3104974\nSouthern hemisphere,1962,0.16747507\nSouthern hemisphere,1963,0.19978075\nSouthern hemisphere,1964,-0.006954848\nSouthern hemisphere,1965,0.1300579\nSouthern hemisphere,1966,0.13493095\nSouthern hemisphere,1967,0.14782028\nSouthern hemisphere,1968,0.14570934\nSouthern hemisphere,1969,0.38133177\nSouthern hemisphere,1970,0.29613784\nSouthern hemisphere,1971,0.16095105\nSouthern hemisphere,1972,0.40606686\nSouthern hemisphere,1973,0.42206517\nSouthern hemisphere,1974,0.24834637\nSouthern hemisphere,1975,0.23313996\nSouthern hemisphere,1976,0.163955\nSouthern hemisphere,1977,0.47097278\nSouthern hemisphere,1978,0.36617467\nSouthern hemisphere,1979,0.4944014\nSouthern hemisphere,1980,0.59660333\nSouthern hemisphere,1981,0.5038271\nSouthern hemisphere,1982,0.42218092\nSouthern hemisphere,1983,0.59917223\nSouthern hemisphere,1984,0.46937495\nSouthern hemisphere,1985,0.49525252\nSouthern hemisphere,1986,0.47312266\nSouthern hemisphere,1987,0.6341041\nSouthern hemisphere,1988,0.5924084\nSouthern hemisphere,1989,0.48489955\nSouthern hemisphere,1990,0.60094404\nSouthern hemisphere,1991,0.6363683\nSouthern hemisphere,1992,0.49665067\nSouthern hemisphere,1993,0.4827357\nSouthern hemisphere,1994,0.48764005\nSouthern hemisphere,1995,0.5288624\nSouthern hemisphere,1996,0.6053962\nSouthern hemisphere,1997,0.6536627\nSouthern hemisphere,1998,0.7841584\nSouthern hemisphere,1999,0.516373\nSouthern hemisphere,2000,0.5188597\nSouthern hemisphere,2001,0.6940839\nSouthern hemisphere,2002,0.76198494\nSouthern hemisphere,2003,0.71163493\nSouthern hemisphere,2004,0.6450178\nSouthern hemisphere,2005,0.7260918\nSouthern hemisphere,2006,0.6941107\nSouthern hemisphere,2007,0.6950664\nSouthern hemisphere,2008,0.60336167\nSouthern hemisphere,2009,0.83058983\nSouthern hemisphere,2010,0.7850094\nSouthern hemisphere,2011,0.6938156\nSouthern hemisphere,2012,0.7146487\nSouthern hemisphere,2013,0.8142427\nSouthern hemisphere,2014,0.7817155\nSouthern hemisphere,2015,0.8631544\nSouthern hemisphere,2016,0.9544275\nSouthern hemisphere,2017,0.91871786\nSouthern hemisphere,2018,0.90941256\nSouthern hemisphere,2019,0.98216796\nSouthern hemisphere,2020,0.9136977\nSouthern hemisphere,2021,0.78938454\nSouthern hemisphere,2022,0.846575\nSouthern hemisphere,2023,1.1305256\nSouthern hemisphere,2024,1.1562582\nSouthern hemisphere,2025,1.1947323\nWorld,1850,-0.05541366\nWorld,1851,0.12894794\nWorld,1852,0.13289867\nWorld,1853,0.0919433\nWorld,1854,0.07077692\nWorld,1855,0.065381\nWorld,1856,0.04194403\nWorld,1857,-0.1049323\nWorld,1858,-0.026467945\nWorld,1859,0.08103258\nWorld,1860,-0.027867433\nWorld,1861,-0.06681519\nWorld,1862,-0.17407164\nWorld,1863,0.018053684\nWorld,1864,-0.10316732\nWorld,1865,0.029816423\nWorld,1866,0.021010254\nWorld,1867,0.005303625\nWorld,1868,0.010470603\nWorld,1869,0.0457058\nWorld,1870,0.034370217\nWorld,1871,-0.0062650107\nWorld,1872,0.03418717\nWorld,1873,0.021000836\nWorld,1874,-0.010953452\nWorld,1875,-0.013328191\nWorld,1876,-0.06181216\nWorld,1877,0.2611889\nWorld,1878,0.35098255\nWorld,1879,0.05866343\nWorld,1880,0.0464657\nWorld,1881,0.13005222\nWorld,1882,0.06676767\nWorld,1883,0.015823338\nWorld,1884,-0.13002232\nWorld,1885,-0.108825825\nWorld,1886,-0.058605876\nWorld,1887,-0.13648802\nWorld,1888,-0.017081138\nWorld,1889,0.11240219\nWorld,1890,-0.14456043\nWorld,1891,-0.039017197\nWorld,1892,-0.14526078\nWorld,1893,-0.13232148\nWorld,1894,-0.12146618\nWorld,1895,-0.08645385\nWorld,1896,0.07829047\nWorld,1897,0.102497585\nWorld,1898,-0.12349438\nWorld,1899,0.0068641044\nWorld,1900,0.12780385\nWorld,1901,0.06888751\nWorld,1902,-0.07665878\nWorld,1903,-0.17098936\nWorld,1904,-0.23521331\nWorld,1905,-0.045495477\nWorld,1906,0.043188963\nWorld,1907,-0.14177856\nWorld,1908,-0.15152195\nWorld,1909,-0.1733894\nWorld,1910,-0.16861174\nWorld,1911,-0.17678127\nWorld,1912,-0.11324089\nWorld,1913,-0.10471334\nWorld,1914,0.09986118\nWorld,1915,0.17062555\nWorld,1916,-0.057725396\nWorld,1917,-0.18052194\nWorld,1918,-0.062066343\nWorld,1919,0.037008677\nWorld,1920,0.06394268\nWorld,1921,0.121853404\nWorld,1922,0.023284052\nWorld,1923,0.04461587\nWorld,1924,0.050496046\nWorld,1925,0.08015577\nWorld,1926,0.23974274\nWorld,1927,0.13318415\nWorld,1928,0.15583193\nWorld,1929,-0.030145284\nWorld,1930,0.18549232\nWorld,1931,0.25890008\nWorld,1932,0.21683604\nWorld,1933,0.039953325\nWorld,1934,0.1879609\nWorld,1935,0.15623851\nWorld,1936,0.1927768\nWorld,1937,0.3430988\nWorld,1938,0.350097\nWorld,1939,0.32150054\nWorld,1940,0.43823355\nWorld,1941,0.40042704\nWorld,1942,0.36370382\nWorld,1943,0.36871934\nWorld,1944,0.5064029\nWorld,1945,0.4053861\nWorld,1946,0.24348314\nWorld,1947,0.27109215\nWorld,1948,0.23763648\nWorld,1949,0.21849552\nWorld,1950,0.13567594\nWorld,1951,0.3011438\nWorld,1952,0.3776523\nWorld,1953,0.4399285\nWorld,1954,0.24554752\nWorld,1955,0.1649878\nWorld,1956,0.09913213\nWorld,1957,0.32696283\nWorld,1958,0.3446652\nWorld,1959,0.31429294\nWorld,1960,0.24683817\nWorld,1961,0.34229797\nWorld,1962,0.29825503\nWorld,1963,0.32548714\nWorld,1964,0.056436215\nWorld,1965,0.15787727\nWorld,1966,0.21340014\nWorld,1967,0.24475846\nWorld,1968,0.19365019\nWorld,1969,0.33091152\nWorld,1970,0.27723366\nWorld,1971,0.1564087\nWorld,1972,0.26850644\nWorld,1973,0.4122479\nWorld,1974,0.18977118\nWorld,1975,0.25154352\nWorld,1976,0.14646085\nWorld,1977,0.46538624\nWorld,1978,0.3675537\nWorld,1979,0.45315588\nWorld,1980,0.5583698\nWorld,1981,0.6123098\nWorld,1982,0.39656603\nWorld,1983,0.5861076\nWorld,1984,0.41029125\nWorld,1985,0.41202748\nWorld,1986,0.45798472\nWorld,1987,0.60532415\nWorld,1988,0.6444495\nWorld,1989,0.5415481\nWorld,1990,0.7228801\nWorld,1991,0.7011943\nWorld,1992,0.48719457\nWorld,1993,0.52800494\nWorld,1994,0.59584755\nWorld,1995,0.7391639\nWorld,1996,0.6389871\nWorld,1997,0.7846063\nWorld,1998,0.93963945\nWorld,1999,0.6867827\nWorld,2000,0.6933825\nWorld,2001,0.8515781\nWorld,2002,0.9057643\nWorld,2003,0.9064679\nWorld,2004,0.82966846\nWorld,2005,0.96916026\nWorld,2006,0.93485045\nWorld,2007,0.9539991\nWorld,2008,0.8279476\nWorld,2009,0.9590794\nWorld,2010,1.0426692\nWorld,2011,0.8999955\nWorld,2012,0.9399048\nWorld,2013,0.9858731\nWorld,2014,1.0351694\nWorld,2015,1.1874121\nWorld,2016,1.2952248\nWorld,2017,1.207472\nWorld,2018,1.1249518\nWorld,2019,1.2533703\nWorld,2020,1.2852182\nWorld,2021,1.1242033\nWorld,2022,1.1636031\nWorld,2023,1.4626105\nWorld,2024,1.5430979\nWorld,2025,1.6256422",
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "inline",
+          "type": "csv",
+          "url": "",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Temperature variation above sea level",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "World"
+                  }
+                },
+                "fieldName": "Entity"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "fieldMinMax": false,
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 5,
+        "x": 19,
+        "y": 9
+      },
+      "id": 28,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "percentChangeColorMode": "inverted",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": true,
+        "textMode": "auto",
+        "wideLayout": true
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "Year",
+              "text": "Year",
+              "timestampFormat": "2006",
+              "type": "timestamp"
+            },
+            {
+              "selector": "n_events",
+              "text": "n_events",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Entity",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/number-of-natural-disaster-events.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Number of Natural Disasters",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "All disasters"
+                  }
+                },
+                "fieldName": "Entity"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "gridPos": {
+        "h": 6,
+        "w": 9,
+        "x": 0,
+        "y": 10
+      },
+      "id": 27,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Sustainable Development Goals\nThe Sustainable Development Goals (SDGs) are a global call to action for a better future. Among them, Goal 9 promotes resilient infrastructure and innovation to support sustainable industrial development. Goal 12 encourages efficient resource use and waste reduction to protect the environment. Goal 13 urges immediate action to combat climate change and strengthen resilience against its impacts.",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 18,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 6,
+            "pointSize": 6,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true Canada"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Canada"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Canada"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#1fc4a3",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true Spain"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#1aff05",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true United States"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "dark-red",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true China"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#7500e0",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true United States"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "United States"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true Spain"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Spain"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true China"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "China"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 12,
+        "x": 0,
+        "y": 16
+      },
+      "id": 4,
+      "links": [
+        {
+          "targetBlank": true,
+          "title": "Industrialization and Early Emissions",
+          "url": "https://en.wikipedia.org/wiki/Industrial_Revolution"
+        },
+        {
+          "targetBlank": true,
+          "title": "Post-War Surge and Peak",
+          "url": "https://www.library.hbs.edu/working-knowledge/restoring-a-global-economy-19501980"
+        }
+      ],
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            },
+            {
+              "selector": "Year",
+              "text": "Year",
+              "timestampFormat": "2006",
+              "type": "timestamp"
+            },
+            {
+              "selector": "emissions_total_per_capita",
+              "text": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true",
+              "type": "number"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filterExpression": "",
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/co-emissions-per-capita.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "CO2 per capita",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "United States"
+                  }
+                },
+                "fieldName": "Country"
+              },
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "Canada"
+                  }
+                },
+                "fieldName": "Country"
+              },
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "China"
+                  }
+                },
+                "fieldName": "Country"
+              },
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "Spain"
+                  }
+                },
+                "fieldName": "Country"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        },
+        {
+          "id": "prepareTimeSeries",
+          "options": {
+            "format": "multi"
+          }
+        }
+      ],
+      "transparent": true,
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "axisSoftMin": 10,
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 26,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 3,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Life Expectancy Canada"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#22f606",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Life Expectancy United States"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "yellow",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Life Expectancy China"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "dark-red",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Life Expectancy Spain"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#57daf2",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 12,
+        "x": 12,
+        "y": 16
+      },
+      "id": 5,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "none",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            },
+            {
+              "selector": "Year",
+              "text": "Year",
+              "timestampFormat": "2006",
+              "type": "timestamp"
+            },
+            {
+              "selector": "life_expectancy_0__sex_total__age_0",
+              "text": "Life Expectancy",
+              "type": "number"
+            }
+          ],
+          "computed_columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/life-expectancy.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        },
+        {
+          "columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "hide": false,
+          "parser": "backend",
+          "refId": "B",
+          "root_selector": "",
+          "source": "url",
+          "type": "json",
+          "url": "",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Life expectancy by Country",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "United States"
+                  }
+                },
+                "fieldName": "A Country"
+              },
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "Canada"
+                  }
+                },
+                "fieldName": "A Country"
+              },
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "China"
+                  }
+                },
+                "fieldName": "A Country"
+              },
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "Spain"
+                  }
+                },
+                "fieldName": "A Country"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        },
+        {
+          "id": "prepareTimeSeries",
+          "options": {
+            "format": "multi"
+          }
+        }
+      ],
+      "transparent": true,
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 12,
+        "x": 0,
+        "y": 27
+      },
+      "id": 25,
+      "options": {
+        "basemap": {
+          "config": {},
+          "name": "Layer 0",
+          "type": "default"
+        },
+        "controls": {
+          "mouseWheelZoom": true,
+          "showAttribution": true,
+          "showDebug": false,
+          "showMeasure": false,
+          "showScale": false,
+          "showZoom": true
+        },
+        "layers": [
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "semi-dark-yellow"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "filterData": {
+              "id": "byRefId",
+              "options": "A"
+            },
+            "name": "industry-marker",
+            "tooltip": true,
+            "type": "markers"
+          },
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "semi-dark-yellow"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "filterData": {
+              "id": "byRefId",
+              "options": "B"
+            },
+            "location": {
+              "mode": "auto"
+            },
+            "name": "industry-heatmap",
+            "tooltip": true,
+            "type": "markers"
+          },
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "dark-green"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "filterData": {
+              "id": "byRefId",
+              "options": "C"
+            },
+            "location": {
+              "mode": "auto"
+            },
+            "name": "agriculture-markers",
+            "tooltip": true,
+            "type": "markers"
+          },
+          {
+            "config": {
+              "rules": [],
+              "src": "https://gist.githubusercontent.com/Barrenee/4e807c8e64df31f31ee5cdb3756b8d60/raw/catalonia-industr.geojson",
+              "style": {
+                "color": {
+                  "fixed": "#C4162A"
+                },
+                "opacity": 0.7,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "name": "Layer 4",
+            "opacity": 0.4,
+            "tooltip": true,
+            "type": "geojson"
+          },
+          {
+            "config": {
+              "rules": [],
+              "src": "https://raw.githubusercontent.com/Barrenee/grefusa-data/main/agriculture.geojson",
+              "style": {
+                "color": {
+                  "fixed": "#56A64B"
+                },
+                "opacity": 1,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "name": "Layer 5",
+            "opacity": 1,
+            "tooltip": true,
+            "type": "geojson"
+          },
+          {
+            "config": {
+              "rules": [],
+              "src": "https://raw.githubusercontent.com/Barrenee/grefusa-data/main/industries.geojson",
+              "style": {
+                "color": {
+                  "fixed": "#F2CC0C"
+                },
+                "opacity": 1,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "name": "Layer 6",
+            "opacity": 1,
+            "tooltip": true,
+            "type": "geojson"
+          }
+        ],
+        "tooltip": {
+          "mode": "details"
+        },
+        "view": {
+          "allLayers": true,
+          "id": "zero",
+          "lat": 0,
+          "lon": 0,
+          "zoom": 1
+        }
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "node-graph-nodes",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "elements",
+          "source": "url",
+          "type": "json",
+          "url": "http://overpass-api.de/api/interpreter",
+          "url_options": {
+            "data": "",
+            "method": "GET",
+            "params": [
+              {
+                "key": "data",
+                "value": "[out:json][timeout:1];(node[\"landuse\"=\"industrial\"](40.5,0.15,42.9,3.3);relation[\"landuse\"=\"industrial\"](40.5,0.15,42.9,3.3););out center;"
+              }
+            ]
+          }
+        },
+        {
+          "columns": [
+            {
+              "selector": "center.lat",
+              "text": "lat",
+              "type": "number"
+            },
+            {
+              "selector": "center.lon",
+              "text": "lon",
+              "type": "number"
+            },
+            {
+              "selector": "tags.landuse",
+              "text": "landuse",
+              "type": "string"
+            },
+            {
+              "selector": "tags.name",
+              "text": "name",
+              "type": "string"
+            }
+          ],
+          "computed_columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "hide": false,
+          "parser": "backend",
+          "refId": "B",
+          "root_selector": "elements",
+          "source": "url",
+          "type": "json",
+          "url": "https://overpass-api.de/api/interpreter",
+          "url_options": {
+            "data": "",
+            "method": "GET",
+            "params": [
+              {
+                "key": "data",
+                "value": "[out:json][timeout:1];(way[\"landuse\"=\"industrial\"](40.5,0.15,42.9,3.3);relation[\"landuse\"=\"industrial\"](40.5,0.15,42.9,3.3););out center;"
+              }
+            ]
+          }
+        },
+        {
+          "columns": [
+            {
+              "selector": "center.lat",
+              "text": "lat",
+              "type": "number"
+            },
+            {
+              "selector": "center.lon",
+              "text": "lon",
+              "type": "number"
+            },
+            {
+              "selector": "tags.name",
+              "text": "name",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "node-graph-edges",
+          "global_query_id": "",
+          "hide": false,
+          "parser": "backend",
+          "refId": "C",
+          "root_selector": "elements",
+          "source": "url",
+          "type": "json",
+          "url": "https://overpass-api.de/api/interpreter",
+          "url_options": {
+            "data": "",
+            "method": "GET",
+            "params": [
+              {
+                "key": "data",
+                "value": "[out:json][timeout:1];(way[\"landuse\"=\"allotments\"](40.5,0.15,42.9,3.3););out center;"
+              }
+            ]
+          }
+        }
+      ],
+      "title": "Land Use",
+      "type": "geomap"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#20ff03"
+              },
+              {
+                "color": "#ff001e",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 12,
+        "x": 12,
+        "y": 27
+      },
+      "id": 1,
+      "options": {
+        "basemap": {
+          "config": {},
+          "name": "Layer 0",
+          "type": "default"
+        },
+        "controls": {
+          "mouseWheelZoom": true,
+          "showAttribution": true,
+          "showDebug": false,
+          "showMeasure": false,
+          "showScale": false,
+          "showZoom": true
+        },
+        "layers": [
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "field": "value",
+                  "fixed": "dark-green"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "field": "value",
+                  "fixed": 5,
+                  "max": 10,
+                  "min": 1
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "symbolAlign": {
+                  "horizontal": "center",
+                  "vertical": "center"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "location": {
+              "mode": "auto"
+            },
+            "name": "Layer 1",
+            "tooltip": true,
+            "type": "markers"
+          }
+        ],
+        "tooltip": {
+          "mode": "details"
+        },
+        "view": {
+          "allLayers": true,
+          "id": "zero",
+          "lat": 0,
+          "lon": 0,
+          "zoom": 1
+        }
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "results",
+          "source": "url",
+          "type": "json",
+          "url": "https://api.openaq.org/v3/parameters/2/latest?   country=ES&   limit=10000",
+          "url_options": {
+            "data": "",
+            "headers": [
+              {
+                "key": "X-API-Key",
+                "value": "79e05d2746205ff1a3c4ffee6a6b31f1ae9ee4298434d27510ae5402e5b9ff5e"
+              }
+            ],
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Current World Emissions",
+      "transformations": [
+        {
+          "id": "extractFields",
+          "options": {
+            "delimiter": ",",
+            "source": "coordinates"
+          }
+        }
+      ],
+      "transparent": true,
+      "type": "geomap"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 0,
+        "y": 38
+      },
+      "id": 17,
+      "options": {
+        "displayMode": "gradient",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "oilseed_products",
+              "text": "Oilseed products",
+              "type": "number"
+            },
+            {
+              "selector": "cattle_meat",
+              "text": "Beef",
+              "type": "number"
+            },
+            {
+              "selector": "veg_fruits_nuts",
+              "text": "Vegetables, fruits, nuts",
+              "type": "number"
+            },
+            {
+              "selector": "other_crops",
+              "text": "Other crops",
+              "type": "number"
+            },
+            {
+              "selector": "rice",
+              "text": "Rice",
+              "type": "number"
+            },
+            {
+              "selector": "other_cereals",
+              "text": "Other cereals",
+              "type": "number"
+            },
+            {
+              "selector": "sugar",
+              "text": "Sugar",
+              "type": "number"
+            },
+            {
+              "selector": "plant_fibres",
+              "text": "Plant fibers",
+              "type": "number"
+            },
+            {
+              "selector": "wheat",
+              "text": "Wheat",
+              "type": "number"
+            },
+            {
+              "selector": "other_meat_products",
+              "text": "Other meat products",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/deforestation-co2-trade-by-product.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Spain CO2 emissions from deforestation",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "Spain"
+                  }
+                },
+                "fieldName": "Country"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        }
+      ],
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 6,
+        "y": 38
+      },
+      "id": 15,
+      "options": {
+        "displayMode": "gradient",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "oilseed_products",
+              "text": "Oilseed products",
+              "type": "number"
+            },
+            {
+              "selector": "cattle_meat",
+              "text": "Beef",
+              "type": "number"
+            },
+            {
+              "selector": "veg_fruits_nuts",
+              "text": "Vegetables, fruits, nuts",
+              "type": "number"
+            },
+            {
+              "selector": "other_crops",
+              "text": "Other crops",
+              "type": "number"
+            },
+            {
+              "selector": "rice",
+              "text": "Rice",
+              "type": "number"
+            },
+            {
+              "selector": "other_cereals",
+              "text": "Other cereals",
+              "type": "number"
+            },
+            {
+              "selector": "sugar",
+              "text": "Sugar",
+              "type": "number"
+            },
+            {
+              "selector": "plant_fibres",
+              "text": "Plant fibers",
+              "type": "number"
+            },
+            {
+              "selector": "wheat",
+              "text": "Wheat",
+              "type": "number"
+            },
+            {
+              "selector": "other_meat_products",
+              "text": "Other meat products",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/deforestation-co2-trade-by-product.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "United States CO2 emissions from deforestation",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "United States"
+                  }
+                },
+                "fieldName": "Country"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        }
+      ],
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 12,
+        "y": 38
+      },
+      "id": 16,
+      "options": {
+        "displayMode": "gradient",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "oilseed_products",
+              "text": "Oilseed products",
+              "type": "number"
+            },
+            {
+              "selector": "cattle_meat",
+              "text": "Beef",
+              "type": "number"
+            },
+            {
+              "selector": "veg_fruits_nuts",
+              "text": "Vegetables, fruits, nuts",
+              "type": "number"
+            },
+            {
+              "selector": "other_crops",
+              "text": "Other crops",
+              "type": "number"
+            },
+            {
+              "selector": "rice",
+              "text": "Rice",
+              "type": "number"
+            },
+            {
+              "selector": "other_cereals",
+              "text": "Other cereals",
+              "type": "number"
+            },
+            {
+              "selector": "sugar",
+              "text": "Sugar",
+              "type": "number"
+            },
+            {
+              "selector": "plant_fibres",
+              "text": "Plant fibers",
+              "type": "number"
+            },
+            {
+              "selector": "wheat",
+              "text": "Wheat",
+              "type": "number"
+            },
+            {
+              "selector": "other_meat_products",
+              "text": "Other meat products",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/deforestation-co2-trade-by-product.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "Canada CO2 emissions from deforestation",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "Canada"
+                  }
+                },
+                "fieldName": "Country"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        }
+      ],
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "${DS_GRAFANACLOUD-INFINITY}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 18,
+        "y": 38
+      },
+      "id": 14,
+      "options": {
+        "displayMode": "gradient",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "oilseed_products",
+              "text": "Oilseed products",
+              "type": "number"
+            },
+            {
+              "selector": "cattle_meat",
+              "text": "Beef",
+              "type": "number"
+            },
+            {
+              "selector": "veg_fruits_nuts",
+              "text": "Vegetables, fruits, nuts",
+              "type": "number"
+            },
+            {
+              "selector": "other_crops",
+              "text": "Other crops",
+              "type": "number"
+            },
+            {
+              "selector": "rice",
+              "text": "Rice",
+              "type": "number"
+            },
+            {
+              "selector": "other_cereals",
+              "text": "Other cereals",
+              "type": "number"
+            },
+            {
+              "selector": "sugar",
+              "text": "Sugar",
+              "type": "number"
+            },
+            {
+              "selector": "plant_fibres",
+              "text": "Plant fibers",
+              "type": "number"
+            },
+            {
+              "selector": "wheat",
+              "text": "Wheat",
+              "type": "number"
+            },
+            {
+              "selector": "other_meat_products",
+              "text": "Other meat products",
+              "type": "number"
+            },
+            {
+              "selector": "Entity",
+              "text": "Country",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "${DS_GRAFANACLOUD-INFINITY}"
+          },
+          "filters": [],
+          "format": "table",
+          "global_query_id": "",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "",
+          "source": "url",
+          "type": "csv",
+          "url": "https://ourworldindata.org/grapher/deforestation-co2-trade-by-product.csv?v=1&csvType=full&useColumnShortNames=true",
+          "url_options": {
+            "data": "",
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "China CO2 emissions from deforestation",
+      "transformations": [
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "equal",
+                  "options": {
+                    "value": "China"
+                  }
+                },
+                "fieldName": "Country"
+              }
+            ],
+            "match": "any",
+            "type": "include"
+          }
+        }
+      ],
+      "type": "bargauge"
+    },
+    {
+      "gridPos": {
+        "h": 7,
+        "w": 11,
+        "x": 0,
+        "y": 46
+      },
+      "id": 8,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### 1. High Emissions\nIndustrial deforestation, tied to expanding agricultural land and resource extraction, has compounded these rising emissions. As forests vanish, more fossil fuels must be burned to meet energy demands, creating a feedback loop.\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 7,
+        "w": 13,
+        "x": 11,
+        "y": 46
+      },
+      "id": 9,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### 2. Global Emissions Trajectory  \nThe **Global World Emissions** panel charts the total annual CO₂ output. Note the accelerating trend:\n1. **Slow Growth (1850–1940):** Emissions remained under 5 billion tonnes/year.  \n2. **Exponential Rise (1940–2000):** From roughly 10 billion to over 25 billion tonnes/year—driven by mass industrialization, mechanized agriculture, and resource extraction.  \n3. **Recent Plateau/Peaks (2000–2020):** The flattening signifies initial impacts of international climate agreements (e.g., Kyoto Protocol, Paris Agreement) and shifts toward lower‑carbon technologies—but levels remain critically high.\n\nApproximately 10–15% of these global emissions originate from land‑use change, primarily deforestation in tropical regions. Without halting forest loss, total emissions will stay locked at dangerous levels.\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 6,
+        "w": 11,
+        "x": 0,
+        "y": 53
+      },
+      "id": 10,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### 3. Life Expectancy and Health Co‑Benefits  \nThe **Life Expectancy by Country** chart reveals a steady climb in life expectancy across Canada, the U.S., Spain, and China. Cleaner air, improved healthcare, and economic growth all play roles here.  \n- Countries that curb deforestation not only protect carbon sinks but also preserve fresh water, reduce soil erosion, and maintain biodiversity—factors that indirectly bolster human health.  \n- Conversely, tropical regions experiencing rapid forest clearance often see increases in vector‑borne diseases, soil degradation, and extreme weather events, threatening local life expectancy gains.\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 6,
+        "w": 13,
+        "x": 11,
+        "y": 53
+      },
+      "id": 11,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### 4. Spotlight on Industry’s Role in Deforestation  \n- **Agribusiness & Timber:** Large-scale soy, palm oil, beef, and commercial logging account for over 70% of tropical deforestation.  \n- **Mining & Infrastructure:** Road-building and mineral extraction penetrate once‑remote forests, fragmenting habitats and paving the way for further land conversion.  \n- **Energy Demand:** Biofuel plantations and hydropower projects may replace one form of carbon storage (fossil fuels) with another form of ecosystem loss.",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    },
+    {
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 59
+      },
+      "id": 12,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "### Conclusion: Advancing Sustainability Through Climate and Health Co-Actions\n\nTo meet the global challenges of climate change, health, and sustainability, it is crucial to address **SDG 9 (Industry, Innovation, and Infrastructure)**, **SDG 12 (Responsible Consumption and Production)**, and **SDG 13 (Climate Action)** together. These goals are interlinked, and collective efforts will be key to ensuring a sustainable future for both people and the planet.\n\n- **SDG 9** emphasizes the need for **sustainable industrialization and innovation**. To achieve this, countries must invest in clean technologies and green infrastructure, shifting away from resource-intensive industries. The creation of more sustainable, efficient industries can mitigate environmental damage and improve the quality of life.\n\n- **SDG 12** calls for a shift toward **responsible consumption** and reducing waste and pollution. By adopting circular economy models, promoting sustainable agricultural practices, and cutting down on deforestation, countries can curb the over-exploitation of natural resources, which directly impacts biodiversity, water, and soil health, and indirectly contributes to improved health outcomes.\n\n- **SDG 13** stresses the urgency of **climate action**. Addressing deforestation is central to this goal, as forests are not only vital carbon sinks but also essential for human health. Protecting and restoring ecosystems is crucial in combating climate change, reducing the spread of diseases, and ensuring long-term resilience to climate impacts.\n",
+        "mode": "markdown"
+      },
+      "pluginVersion": "12.0.0-86898",
+      "type": "text"
+    }
+  ],
+  "schemaVersion": 41,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "1811-07-20T00:52:06.000Z",
+    "to": "2025-05-03T22:00:00.000Z"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Graf-Anna",
+  "uid": "07b1a886-e285-4eb1-82ba-1fb54bcc1c25",
+  "version": 95,
+  "weekStart": ""
+}
